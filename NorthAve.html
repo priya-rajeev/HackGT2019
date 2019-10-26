@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div align="left">
+        <a href="Test.html" class="button">Back!</a>
+
+    </div>
+    <title>North Avenue Dining Hall</title>
+    <link rel="stylesheet" href="Test.css"/>
+    <style type="text/css">
+        .tab { margin-left: 40px; }
+    </style>
+</head>
+
+<body>
+<!--<div id="navbar">-->
+<!--    <ul>-->
+<!--        <li>-->
+<!--            <a href="mailto:mwilson317@gatech.edu" class="nav-link">Don't Spam Plx</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--            <a href="https://www.facebook.com/groups/GTmemesforbuzzedteens/" class="nav-link">Meme Page</a>-->
+<!--        </li>-->
+<!--    </ul>-->
+<!--</div>-->
+
+<br/>
+
+<div id="about">
+    <hacker id="hacker">***North Avenue Dining Hall***</hacker>
+    <br>
+<!--    <img src="https://assets.hunterdouglasarchitectural.com/projects/1988/sm-GTDH_013F.jpg">-->
+<!--    <h2 >Currently Serving:</h2>-->
+    <div align="left">
+        World Fare
+        <p class="tab">Tacos <br> </p>
+        Dessert
+    </div>
+</div>
+
+<a href="Disney.html" class="button">secret link!1!1</a>
+
+
+<SCRIPT>
+function passWord() {
+    var testV = 1;
+    var pass1 = prompt('Please Enter Your Password',' ');
+    while (testV < 3) {
+        if (!pass1)
+            history.go(-1);
+        if (pass1.toLowerCase() == "buzzbuzz") {
+            alert('You Got it Right!');
+            window.open(href="PassProtected.html");
+            break;
+        }
+        testV+=1;
+        var pass1 =
+            prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+    }
+    if (pass1.toLowerCase()!="password" & testV ==3)
+        history.go(-1);
+    return " ";
+}
+</SCRIPT>
+<CENTER>
+    <FORM>
+        <input type="button" value="Enter Protected Area" onClick="passWord()">
+    </FORM>
+</CENTER>
+
+</body>
+</html>
